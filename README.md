@@ -1,39 +1,21 @@
-# Purpose of This Repo
+# Deep Learning with Multi-Backend Keras
 
 This repo is meant to be used to keep things organized during content development and act as the source of truth for all exercises related to this content.
 
 ## Environment Requirements and Installation
+- A `requirements.txt` file has been provided for packages - to install the packages, run `pip install -r requirements.txt`.
+- Set `$KERAS_HOME` environment variable to point to `.keras` within the repository. This indicates where to cache the downloaded models.
+- The datasets are small enough to be stored on GitHub, you can access them directly from the folders.
 
-Fill out the requirements.txt file and describe all dependencies for students to be able to install and run all dependencies for the entire repository.  Add local installation instructions for students. Optionally, add and explain any additional requirements and dependencies (datasets, databases, operating system packages or resources) in this readme file. 
 ## Folder Structure
 
-This repo contains a folder for each `exercise`.
+This repo contains a folder for each `demo` and `exercise`.
 
-Example
 ```
-exercise-1-hello
-exercise-2-world
-exercise-3-foo
-exercise-4-bar
-```
-
-Each `exercise` folder is named using the naming convention of `exercise-#-name-of-exercise`.
-
-Example
-```
-exercise-1-hello
+Demo1-gpt-generation
+Demo2-mnist-classification
+Exercise1-sunglasses-detection
+Exercise2-are-you-looking-at-the-road
 ```
 
-Five exercises folders have been provided as a template; However, you may need to add more or possibly use less depending on what is needed.
-
-If you require an additional exercise folder, you can make a copy of the folder and paste it into the root directory.
-
-### Exercises Folder
-
-Each `exercise` folder should contain all files and instructions necessary for the exercises along with the solution. The solutions for these exercises will be shared with students. See the `README` in the `exercises` folders for information about folder structure.
-
-### Environment Requirements and Installation
-
-Fill out the requirements.txt file and note all package dependencies.  Optionally add and explain any additional requirements (datasets, databases, operating system packages) in this readme file. 
-
-
+Each `demo` folder is named using the naming convention of `demo-#-name-of-demo`, and each `exercise` folder is named using the naming convention of `exercise-#-name-of-exercise`.
