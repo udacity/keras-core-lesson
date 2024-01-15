@@ -1,22 +1,13 @@
-# Purpose of This Directory
+# MNIST Classification
 
-This directory should contain any files and instructions necessary for exercises created for this lesson.
+This demo folder provides instructions on training a convolutional neural network (CNN) model for MNIST digit classification from scratch. We'll walk you through the process of creating and training a CNN model using Python and Multi-backend Keras. In addition, we will also show techniques within Keras that enable fine-tuning and transfer learning.
 
 ## Folder Structure
 
-Each exercise should be contained in its own folder using the naming convention of `concept#-name-of-concept`. See example below:
-
 ```
-exercises
-    |_ concept1-hello-world
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
-    |_ concept2-foo-bar
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
+Demo2-mnist-classification
+    |_ classification-demo.ipynb
     |_ README.md
 ```
+
+`classification-demo.ipynb`: This notebook contains code for creating and training a CNN model for MNIST digit classification.
