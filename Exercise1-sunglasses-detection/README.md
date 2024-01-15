@@ -16,6 +16,6 @@ Exercise1-sunglasses-detection
     |_ README.md
 ```
 
-`sunglasses-classification.ipynb`: This notebook contains the solution for the sunglasses detection exercise. It goes through how to set up and train a model, and how to analyze it.
-`sunglasses-classification-starter.ipynb`: This notebook contains the starter code for the sunglasses detection exercise. It provides a structured environment for you to work on the exercise step by step.
-`sunglasses-dataset`: The dataset that you will working on. We have organised it for you into two folders (`sunglasses` and `no_sunglasses`) for the respective classes.
+- `sunglasses-classification.ipynb`: This notebook contains the solution for the sunglasses detection exercise. It goes through how to set up and train a model, and how to analyze it.
+- `sunglasses-classification-starter.ipynb`: This notebook contains the starter code for the sunglasses detection exercise. It provides a structured environment for you to work on the exercise step by step.
+- `sunglasses-dataset`: The dataset that you will working on. We have organised it for you into two folders (`sunglasses` and `no_sunglasses`) for the respective classes.
